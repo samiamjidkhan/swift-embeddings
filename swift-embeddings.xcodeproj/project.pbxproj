@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E0CA6B052D24DC01005B807E /* Embeddings in Frameworks */ = {isa = PBXBuildFile; productRef = E0CA6B042D24DC01005B807E /* Embeddings */; };
+		E0CA6B072D24DC01005B807E /* MLTensorUtils in Frameworks */ = {isa = PBXBuildFile; productRef = E0CA6B062D24DC01005B807E /* MLTensorUtils */; };
+		E0CA6B092D24DC01005B807E /* embeddings-cli in Frameworks */ = {isa = PBXBuildFile; productRef = E0CA6B082D24DC01005B807E /* embeddings-cli */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		E0CA6AE72D24DB35005B807E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -45,6 +51,11 @@
 			path = "swift-embeddingsUITests";
 			sourceTree = "<group>";
 		};
+		E0CA6B952D251ACA005B807E /* all-MiniLM-L6-v2 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "all-MiniLM-L6-v2";
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +63,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0CA6B092D24DC01005B807E /* embeddings-cli in Frameworks */,
+				E0CA6B072D24DC01005B807E /* MLTensorUtils in Frameworks */,
+				E0CA6B052D24DC01005B807E /* Embeddings in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +89,7 @@
 		E0CA6ACC2D24DB32005B807E = {
 			isa = PBXGroup;
 			children = (
+				E0CA6B952D251ACA005B807E /* all-MiniLM-L6-v2 */,
 				E0CA6AD72D24DB32005B807E /* swift-embeddings */,
 				E0CA6AE92D24DB35005B807E /* swift-embeddingsTests */,
 				E0CA6AF32D24DB35005B807E /* swift-embeddingsUITests */,
@@ -109,9 +124,13 @@
 			);
 			fileSystemSynchronizedGroups = (
 				E0CA6AD72D24DB32005B807E /* swift-embeddings */,
+				E0CA6B952D251ACA005B807E /* all-MiniLM-L6-v2 */,
 			);
 			name = "swift-embeddings";
 			packageProductDependencies = (
+				E0CA6B042D24DC01005B807E /* Embeddings */,
+				E0CA6B062D24DC01005B807E /* MLTensorUtils */,
+				E0CA6B082D24DC01005B807E /* embeddings-cli */,
 			);
 			productName = "swift-embeddings";
 			productReference = E0CA6AD52D24DB32005B807E /* swift-embeddings.app */;
@@ -195,6 +214,9 @@
 			);
 			mainGroup = E0CA6ACC2D24DB32005B807E;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E0CA6B032D24DC01005B807E /* XCRemoteSwiftPackageReference "swift-embeddings" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = E0CA6AD62D24DB32005B807E /* Products */;
 			projectDirPath = "";
@@ -541,6 +563,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E0CA6B032D24DC01005B807E /* XCRemoteSwiftPackageReference "swift-embeddings" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jkrukowski/swift-embeddings";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E0CA6B042D24DC01005B807E /* Embeddings */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E0CA6B032D24DC01005B807E /* XCRemoteSwiftPackageReference "swift-embeddings" */;
+			productName = Embeddings;
+		};
+		E0CA6B062D24DC01005B807E /* MLTensorUtils */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E0CA6B032D24DC01005B807E /* XCRemoteSwiftPackageReference "swift-embeddings" */;
+			productName = MLTensorUtils;
+		};
+		E0CA6B082D24DC01005B807E /* embeddings-cli */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E0CA6B032D24DC01005B807E /* XCRemoteSwiftPackageReference "swift-embeddings" */;
+			productName = "embeddings-cli";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E0CA6ACD2D24DB32005B807E /* Project object */;
 }

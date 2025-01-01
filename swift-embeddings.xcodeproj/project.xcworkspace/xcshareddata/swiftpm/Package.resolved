@@ -1,0 +1,60 @@
+{
+  "originHash" : "bfb4389d2f4825e8b8cbaaeca59506f587a459a8f4ba72b91724c76ef2c5c835",
+  "pins" : [
+    {
+      "identity" : "jinja",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/maiqingqiang/Jinja",
+      "state" : {
+        "revision" : "6dbe4c449469fb586d0f7339f900f0dd4d78b167",
+        "version" : "1.0.6"
+      }
+    },
+    {
+      "identity" : "swift-argument-parser",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-argument-parser.git",
+      "state" : {
+        "revision" : "41982a3656a71c768319979febd796c6fd111d5c",
+        "version" : "1.5.0"
+      }
+    },
+    {
+      "identity" : "swift-embeddings",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jkrukowski/swift-embeddings",
+      "state" : {
+        "revision" : "47697a003aa834ead4781ed886ac956bc81a436c",
+        "version" : "0.0.7"
+      }
+    },
+    {
+      "identity" : "swift-safetensors",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jkrukowski/swift-safetensors.git",
+      "state" : {
+        "revision" : "f730309020d5b53e137b30bc10eb1d168954e1e7",
+        "version" : "0.0.6"
+      }
+    },
+    {
+      "identity" : "swift-sentencepiece",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jkrukowski/swift-sentencepiece",
+      "state" : {
+        "revision" : "75d725019ff0b75fbbd7128314fe6710c5a86df0",
+        "version" : "0.0.5"
+      }
+    },
+    {
+      "identity" : "swift-transformers",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/huggingface/swift-transformers.git",
+      "state" : {
+        "revision" : "d42fdae473c49ea216671da8caae58e102d28709",
+        "version" : "0.1.14"
+      }
+    }
+  ],
+  "version" : 3
+}
