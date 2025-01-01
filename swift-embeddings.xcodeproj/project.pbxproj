@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		E0CA6AE72D24DB35005B807E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0CA6ACD2D24DB32005B807E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0CA6AD42D24DB32005B807E;
+			remoteInfo = "swift-embeddings";
+		};
+		E0CA6AF12D24DB35005B807E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0CA6ACD2D24DB32005B807E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0CA6AD42D24DB32005B807E;
+			remoteInfo = "swift-embeddings";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E0CA6AD52D24DB32005B807E /* swift-embeddings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-embeddings.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0CA6AE62D24DB35005B807E /* swift-embeddingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-embeddingsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0CA6AF02D24DB35005B807E /* swift-embeddingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-embeddingsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E0CA6AD72D24DB32005B807E /* swift-embeddings */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "swift-embeddings";
+			sourceTree = "<group>";
+		};
+		E0CA6AE92D24DB35005B807E /* swift-embeddingsTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "swift-embeddingsTests";
+			sourceTree = "<group>";
+		};
+		E0CA6AF32D24DB35005B807E /* swift-embeddingsUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "swift-embeddingsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0CA6AD22D24DB32005B807E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0CA6AE32D24DB35005B807E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0CA6AED2D24DB35005B807E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0CA6ACC2D24DB32005B807E = {
+			isa = PBXGroup;
+			children = (
+				E0CA6AD72D24DB32005B807E /* swift-embeddings */,
+				E0CA6AE92D24DB35005B807E /* swift-embeddingsTests */,
+				E0CA6AF32D24DB35005B807E /* swift-embeddingsUITests */,
+				E0CA6AD62D24DB32005B807E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0CA6AD62D24DB32005B807E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0CA6AD52D24DB32005B807E /* swift-embeddings.app */,
+				E0CA6AE62D24DB35005B807E /* swift-embeddingsTests.xctest */,
+				E0CA6AF02D24DB35005B807E /* swift-embeddingsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0CA6AD42D24DB32005B807E /* swift-embeddings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0CA6AFA2D24DB35005B807E /* Build configuration list for PBXNativeTarget "swift-embeddings" */;
+			buildPhases = (
+				E0CA6AD12D24DB32005B807E /* Sources */,
+				E0CA6AD22D24DB32005B807E /* Frameworks */,
+				E0CA6AD32D24DB32005B807E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E0CA6AD72D24DB32005B807E /* swift-embeddings */,
+			);
+			name = "swift-embeddings";
+			packageProductDependencies = (
+			);
+			productName = "swift-embeddings";
+			productReference = E0CA6AD52D24DB32005B807E /* swift-embeddings.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0CA6AE52D24DB35005B807E /* swift-embeddingsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0CA6AFD2D24DB35005B807E /* Build configuration list for PBXNativeTarget "swift-embeddingsTests" */;
+			buildPhases = (
+				E0CA6AE22D24DB35005B807E /* Sources */,
+				E0CA6AE32D24DB35005B807E /* Frameworks */,
+				E0CA6AE42D24DB35005B807E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0CA6AE82D24DB35005B807E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E0CA6AE92D24DB35005B807E /* swift-embeddingsTests */,
+			);
+			name = "swift-embeddingsTests";
+			packageProductDependencies = (
+			);
+			productName = "swift-embeddingsTests";
+			productReference = E0CA6AE62D24DB35005B807E /* swift-embeddingsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E0CA6AEF2D24DB35005B807E /* swift-embeddingsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0CA6B002D24DB35005B807E /* Build configuration list for PBXNativeTarget "swift-embeddingsUITests" */;
+			buildPhases = (
+				E0CA6AEC2D24DB35005B807E /* Sources */,
+				E0CA6AED2D24DB35005B807E /* Frameworks */,
+				E0CA6AEE2D24DB35005B807E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0CA6AF22D24DB35005B807E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E0CA6AF32D24DB35005B807E /* swift-embeddingsUITests */,
+			);
+			name = "swift-embeddingsUITests";
+			packageProductDependencies = (
+			);
+			productName = "swift-embeddingsUITests";
+			productReference = E0CA6AF02D24DB35005B807E /* swift-embeddingsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0CA6ACD2D24DB32005B807E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					E0CA6AD42D24DB32005B807E = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					E0CA6AE52D24DB35005B807E = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = E0CA6AD42D24DB32005B807E;
+					};
+					E0CA6AEF2D24DB35005B807E = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = E0CA6AD42D24DB32005B807E;
+					};
+				};
+			};
+			buildConfigurationList = E0CA6AD02D24DB32005B807E /* Build configuration list for PBXProject "swift-embeddings" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0CA6ACC2D24DB32005B807E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E0CA6AD62D24DB32005B807E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0CA6AD42D24DB32005B807E /* swift-embeddings */,
+				E0CA6AE52D24DB35005B807E /* swift-embeddingsTests */,
+				E0CA6AEF2D24DB35005B807E /* swift-embeddingsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0CA6AD32D24DB32005B807E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0CA6AE42D24DB35005B807E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0CA6AEE2D24DB35005B807E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0CA6AD12D24DB32005B807E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0CA6AE22D24DB35005B807E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0CA6AEC2D24DB35005B807E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0CA6AE82D24DB35005B807E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0CA6AD42D24DB32005B807E /* swift-embeddings */;
+			targetProxy = E0CA6AE72D24DB35005B807E /* PBXContainerItemProxy */;
+		};
+		E0CA6AF22D24DB35005B807E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0CA6AD42D24DB32005B807E /* swift-embeddings */;
+			targetProxy = E0CA6AF12D24DB35005B807E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E0CA6AF82D24DB35005B807E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E0CA6AF92D24DB35005B807E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E0CA6AFB2D24DB35005B807E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "swift-embeddings/swift_embeddings.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swift-embeddings/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "exolabs.net.swift-embeddings";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E0CA6AFC2D24DB35005B807E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "swift-embeddings/swift_embeddings.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swift-embeddings/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "exolabs.net.swift-embeddings";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E0CA6AFE2D24DB35005B807E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "exolabs.net.swift-embeddingsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-embeddings.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/swift-embeddings";
+			};
+			name = Debug;
+		};
+		E0CA6AFF2D24DB35005B807E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "exolabs.net.swift-embeddingsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-embeddings.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/swift-embeddings";
+			};
+			name = Release;
+		};
+		E0CA6B012D24DB35005B807E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "exolabs.net.swift-embeddingsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "swift-embeddings";
+			};
+			name = Debug;
+		};
+		E0CA6B022D24DB35005B807E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "exolabs.net.swift-embeddingsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "swift-embeddings";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0CA6AD02D24DB32005B807E /* Build configuration list for PBXProject "swift-embeddings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0CA6AF82D24DB35005B807E /* Debug */,
+				E0CA6AF92D24DB35005B807E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0CA6AFA2D24DB35005B807E /* Build configuration list for PBXNativeTarget "swift-embeddings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0CA6AFB2D24DB35005B807E /* Debug */,
+				E0CA6AFC2D24DB35005B807E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0CA6AFD2D24DB35005B807E /* Build configuration list for PBXNativeTarget "swift-embeddingsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0CA6AFE2D24DB35005B807E /* Debug */,
+				E0CA6AFF2D24DB35005B807E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0CA6B002D24DB35005B807E /* Build configuration list for PBXNativeTarget "swift-embeddingsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0CA6B012D24DB35005B807E /* Debug */,
+				E0CA6B022D24DB35005B807E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0CA6ACD2D24DB32005B807E /* Project object */;
+}
